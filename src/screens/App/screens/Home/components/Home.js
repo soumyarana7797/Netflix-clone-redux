@@ -30,11 +30,11 @@ const Home = () => {
       />
       <Row title="TRENDING MOVIES" fetchMethod="fetchTrendingMovies" />
       <Row title="TOP RATED MOVIES" fetchMethod="fetchTopRated" />
-      <Row title="ACTION MOVIES" fetchMethod="fetchActionMovies" />
+      {/* <Row title="ACTION MOVIES" fetchMethod="fetchActionMovies" />
       <Row title="COMEDY MOVIES" fetchMethod="fetchComedyMovies" />
       <Row title="HORROR MOVIES" fetchMethod="fetchHorrorMovies" />
       <Row title="TOP ROMANTIC MOVIES" fetchMethod="fetchRomanticMovies" />
-      <Row title="DOCUMENTARY MOVIES" fetchMethod="fetchDocumentaryMovies" />
+      <Row title="DOCUMENTARY MOVIES" fetchMethod="fetchDocumentaryMovies" /> */}
     </div>
     // </>
   );

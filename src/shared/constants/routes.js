@@ -2,6 +2,7 @@ export default Object.freeze({
   HOME: {
     name: 'Home',
     route: '/home',
+    protected: false,
   },
   ERROR: {
     name: 'Error',
